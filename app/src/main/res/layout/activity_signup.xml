@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    android:layout_width="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="match_parent">
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Signup"
+        android:textSize="50sp"
+        android:layout_marginTop="16dp"
+        android:fontFamily="sans-serif-thin"
+        android:padding="8dp"
+        />
+    <RadioGroup
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:orientation="horizontal"
+        android:weightSum="2"
+        android:id="@+id/category">
+
+
+        <RadioButton
+            android:id="@+id/stud"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/stud"
+            android:checked="true"
+            android:textSize="17sp"
+            android:layout_gravity="center_horizontal"
+            android:layout_weight="1" />
+
+        <RadioButton
+            android:id="@+id/fac"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/faculty"
+            android:textSize="17sp"
+            android:layout_gravity="center_horizontal"
+            android:layout_weight="1"/>
+
+    </RadioGroup>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:hint="Name"
+        android:id="@+id/name"
+        android:inputType="textPersonName" />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:hint="SID or Emp ID"
+        android:id="@+id/regno"
+        android:inputType="textCapWords" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:weightSum="4"
+        android:layout_gravity="center">
+
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:hint="USYD Mail ID"
+            android:id="@+id/email"
+            android:inputType="textEmailAddress" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="\@uni.sydney.edu.au"
+            android:textSize="25sp"
+            android:layout_gravity="center" />
+    </LinearLayout>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:hint="School (eg. SIT)"
+        android:id="@+id/sch"
+        android:inputType="textCapWords" />
+
+    <EditText android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Password"
+        android:layout_margin="8dp"
+        android:id="@+id/pass"
+        android:inputType="textPassword" />
+    <EditText
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/cpass"
+        android:layout_margin="8dp"
+        android:hint="Confirm password"
+        android:inputType="textPassword" />
+    <Button
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Signup"
+        android:id="@+id/signup"
+        android:layout_margin="8dp"
+        android:layout_gravity="end"
+        android:background="@null"/>
+    <Button
+
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/login"
+        android:background="@null"
+        android:text="Login"/>
+
+</LinearLayout>
+</ScrollView>

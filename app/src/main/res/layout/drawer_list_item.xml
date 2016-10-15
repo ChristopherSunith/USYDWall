@@ -1,0 +1,17 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="60dp"
+    android:gravity="center_vertical">
+
+    <ImageView
+        android:id="@+id/img_drawer"
+        android:layout_width="1dp"
+        android:layout_height="1dp"
+        android:adjustViewBounds="true"
+        android:contentDescription="Navigation Drawer Item Icon"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:id="@+id/txt_drawer"/>
+    </LinearLayout>

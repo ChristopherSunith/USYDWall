@@ -1,0 +1,50 @@
+<resources>
+    <string name="app_name">U.SYD WALL</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="drawer_open">Drawer Open</string>
+    <string name="drawer_close">Drawer close</string>
+    <string name="parse_app_id">3N9cToLyOFybHH7ZLEBVMAZsRYTVFLdAf7I4AWU0</string>
+    <string name="parse_client_id">Jq19zhcI0eTViqKHEXa8G1XbnjyWuNIw58bw25ZE</string>
+    <string name="error_intro">Please enter </string>
+    <string name="username"> valid username </string>
+    <string name="error_join"> and </string>
+    <string name="error_password"> valid password </string>
+    <string name="error_mismatched_passwords">Mismatched password</string>
+    <string name="error_end">.</string>
+    <string name="title_section1">Feed</string>
+    <string name="title_section2">Events</string>
+    <string name="title_section3">News</string>
+    <string name="title_section4">Articles</string>
+    <string name="u_signup">Signup</string>
+    <string name="u_name">Name</string>
+    <string name="u_regno">Register number</string>
+    <string name="u_mailid">USYD Mail ID</string>
+    <string name="u_pass">Password</string>
+    <string name="fpass">Forgot password?</string>
+    <string name="login_b">Login</string>
+    <string name="u_cpass">Confirm password</string>
+    <string name="u_sch">School   (eg.SIT)</string>
+    <string name="gen">Gender</string>
+    <string name="male">Male</string>
+    <string name="female">Female</string>
+    <string name="navigation_drawer_open">Open drawer</string>
+    <string name="navigation_drawer_close">Close drawer</string>
+    <string name="action">Logout</string>
+    <string name="desc_list_item_icon">List item icon</string>
+    <string name="login_here">Already have a account?</string>
+    <string name="restpass">Password reset instruction has been sent to your USYD-mail.</string>
+    <string name="action_new">New</string>
+    <string name="cat">Category</string>
+    <string name="stud">Student</string>
+    <string name="faculty">Faculty</string>
+    <string name="staff">Staff</string>
+
+    <string-array name="helpout_titles">
+        <item>Computer</item>
+        <item>Electrical</item>
+        <item>Electronics</item>
+        <item>Mechanical</item>
+    </string-array>
+</resources>

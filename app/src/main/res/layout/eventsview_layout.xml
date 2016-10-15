@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <include android:id="@+id/toolbar_actionbar" layout="@layout/toolbar_default"
+        android:layout_width="match_parent" android:layout_height="wrap_content" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_margin="16dp">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/event_view_eventname"
+        android:textColor="#000"
+        android:padding="6dp"
+        android:textSize="25sp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/event_view_hostname"
+        android:textSize="15sp"
+        android:padding="6dp"/>
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/event_view_date"
+        android:textSize="20sp"
+        android:padding="6dp"
+        android:drawableLeft="@drawable/ic_action_event"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:drawableLeft="@drawable/ic_action_time"
+        android:textSize="20sp"
+        android:padding="6dp"
+        android:id="@+id/event_view_time"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/event_view_venue"
+        android:drawableLeft="@drawable/ic_action_place"
+        android:textSize="20sp"
+        android:padding="6dp"/>
+
+        <TextView
+            android:id="@+id/contactno_single_events"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:drawableLeft="@drawable/ic_action_call"
+            android:textSize="20sp"
+            android:text="9176219363"
+            android:padding="6dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="15sp"
+        android:padding="6dp"
+        android:id="@+id/event_view_desc"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="6dp"
+        android:id="@+id/event_view_views"/>
+
+    </LinearLayout>
+
+</LinearLayout>
