@@ -25,46 +25,24 @@ and 1080 HD Display.
 Software Requirements
 ---------------------
 
-In order to build/run our Android examples we need to install the following
+In order to build/run our Android App we need to install the following
 free software distributions (last tested versions and download sites are given
 in parenthesis) :
 
-1) Java SDK 1.6 +     (1.7.0_03, www.oracle.com/technetwork/java/javase/downloads/)
-2) Scala SDK 2.7.5 +  (2.10.0  , www.scala-lang.org/downloads/)
-3) Android SDK 9 +    (19      , developer.android.com/sdk/)
-4) Apache Ant 1.7.0 + (1.8.3   , ant.apache.org/)
-5) ProGuard 4.4 +     (4.7     , www.proguard.com/)
-
-NB. In this document we rely on Ant tasks featured by the Scala SDK, the
-Android SDK and the ProGuard shrinker and obfuscator tool (we will say more
-about ProGuard when we look at the modified Ant build script).
+1) Parse-1.8.1.jar    (https://github.com/yongjhih/parse-android-sdk.m2/tree/master/com/infstory/parse/1.8.1)
+2) It.neokree:MaterialTabs:0.11 (https://github.com/neokree/MaterialTabs)
+3) Android SDK 22 +   (https://developer.android.com/studio/index.html)
+4) De.hdodenhof:circleimageview:+(https://github.com/hdodenhof/CircleImageView)
+5) android-support-v7-appcompat     (https://github.com/dandar3/android-support-v7-appcompat)
 
 
 Project Structure
 -----------------
 
-The project structure of an Android application follows the directory layout
-prescribed by the Android system (for more details see the documentation page
-$ANDROID_SDK_ROOT/docs/guide/developing/other-ide.html#CreatingAProject).
-
-In particular:
-
 * The "AndroidManifest.xml" file contains essential information the Android
-  system needs to run the application's code (for more details see the docu-
-  mentation page $ANDROID_SDK_ROOT/docs/guide/topics/manifest/manifest-intro.html)
+  system needs to run the application's code.  
 
-* The "ant.properties" file defines customizable Ant properties for the
-  Android build system; in our case we need to define at least the following
-  properties (please adapt the respective values to your own environment):
-
-  Unix:                                   Windows:
-    sdk.dir=/opt/android-sdk-linux_x86      sdk.dir=c:/Progra~1/android-sdk-windows
-    scala.dir=/opt/scala                    scala.dir=c:/Progra~1/scala
-    proguard.dir=${sdk.dir}/tools/proguard  proguard.dir=${sdk.dir}/tools/proguard
-
-* The "default.properties" file defines the default API level of an Android
-  (for more details see the documentation page
-  $ANDROID_SDK_ROOT/docs/guide/appendix/api-levels.html).
+* The "build.gradle" file defines the default API level of an Android. 
 
 * The "build.xml" Ant build script defines targets such as "clean", "install"
   and "uninstall" and has been slightly modified to handle also Scala source
