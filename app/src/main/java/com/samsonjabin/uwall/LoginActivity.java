@@ -76,7 +76,7 @@ public class LoginActivity extends ActionBarActivity {
 
                 final ProgressDialog dlg = new ProgressDialog(LoginActivity.this);
                 dlg.setTitle("Please wait.");
-                dlg.setMessage("Logging into, vitly");
+                dlg.setMessage("Logging into, U-SYD Wall");
                 dlg.show();
 
                 ParseUser.logInInBackground(login_mailid.getText().toString(), login_pass.getText().toString(), new LogInCallback() {
