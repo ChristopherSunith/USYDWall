@@ -3,7 +3,8 @@
 ===============================================================================
                                 USYDWall
                          Social Media App in Android 
-                        and developed for limited users.
+             and developed for social interactions between students
+                              in a university.
 ===============================================================================
 
 This document describes USYDWall, an app developed with Android Studio to create
@@ -82,15 +83,14 @@ MainActivity.java to construct its UI.  The base name of each file
 (all text before a '.' character) is taken as the resource name;
 it must be lower-case.
 
-res/drawable/articles.png
+res/drawable/usyd.png
 
 The res/drawable/ directory contains images and other things that can be
 drawn to the screen.  These can be bitmaps (in .png or .jpeg format) or
-special XML files describing more complex drawings.  The violet.png file
+special XML files describing more complex drawings.  The usyd.png file
 here is used as the image to display in one of the views in
-skeleton_activity.xml.  Like layout files, the base name is used for the
+fragment_navigation_drawer.xml.  Like layout files, the base name is used for the
 resulting resource name.
-
 
 res/values/colors.xml
 res/values/strings.xml
@@ -104,14 +104,9 @@ file, but we generally split them apart as shown here to keep things organized.
 Signing your Applications
 -------------------------
 All Android applications must be signed. The system will not install an
-application that is not signed. You can use self-signed certificates to sign
-your applications. No certificate authority is needed. For example:
+application that is not signed. Ensure to generate signed APK under Build 
+Options in your Android Studio to run the app on your device. 
 
-$ keytool -genkey -v -keystore ~/.android/release.keystore
-          -alias android-app-dev -keyalg RSA -validity 10000
-
-See also http://developer.android.com/guide/publishing/app-signing.html
-
-
-Have fun!
-Stephane
+--
+Blessings 
+Samson Jabin
