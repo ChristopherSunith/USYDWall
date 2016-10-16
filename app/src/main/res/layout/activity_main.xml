@@ -13,16 +13,16 @@
             android:clickable="true" android:layout_height="match_parent" />
     </LinearLayout>
     <!-- android:layout_marginTop="?android:attr/actionBarSize"-->
-    <com.aravindraj.vitly.NavigationDrawer.ScrimInsetsFrameLayout android:id="@+id/scrimInsetsFrameLayout"
+    <com.samsonjabin.uwall.NavigationDrawer.ScrimInsetsFrameLayout android:id="@+id/scrimInsetsFrameLayout"
         android:layout_width="match_parent" android:layout_height="wrap_content"
         android:fitsSystemWindows="true" android:layout_gravity="start" app:insetForeground="#4000"
         android:elevation="10dp">
         <fragment android:id="@+id/fragment_drawer"
-            android:name="com.aravindraj.vitly.NavigationDrawer.NavigationDrawerFragment"
+            android:name="com.samsonjabin.uwall.NavigationDrawer.NavigationDrawerFragment"
             android:layout_width="@dimen/navigation_drawer_width"
             android:layout_height="match_parent" android:fitsSystemWindows="true"
             app:layout="@layout/fragment_navigation_drawer" />
-    </com.aravindraj.vitly.NavigationDrawer.ScrimInsetsFrameLayout>
+    </com.samsonjabin.uwall.NavigationDrawer.ScrimInsetsFrameLayout>
 
 
 </android.support.v4.widget.DrawerLayout>
