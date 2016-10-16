@@ -17,9 +17,6 @@ import com.samsonjabin.uwall.singleview.PostView;
 import java.util.ArrayList;
 import java.util.List;
 
-/**
- * Created by AravindRaj on 31-03-2015.
- */
 public class PostListAdapter extends BaseAdapter {
 
 

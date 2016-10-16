@@ -26,9 +26,7 @@ import com.parse.SaveCallback;
 
 import static android.widget.Toast.LENGTH_LONG;
 
-/**
- * Created by AravindRaj on 06-04-2015.
- */
+
 public class EventView extends ActionBarActivity {
 
     public String admin = "Samson Jabin D";

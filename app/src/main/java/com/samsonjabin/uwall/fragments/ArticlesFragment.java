@@ -31,9 +31,7 @@ import java.text.SimpleDateFormat;
 import java.util.ArrayList;
 import java.util.List;
 
-/**
- * Created by AravindRaj on 26-03-2015.
- */
+
 public class ArticlesFragment extends Fragment {
 
     ListView listview;
@@ -65,7 +63,7 @@ public class ArticlesFragment extends Fragment {
             // Create a progressdialog
             mProgressDialog = new ProgressDialog(getActivity());
             // Set progressdialog title
-            mProgressDialog.setTitle("vitly");
+            mProgressDialog.setTitle("USYDWall");
             // Set progressdialog message
             mProgressDialog.setMessage("Loading...");
             mProgressDialog.setIndeterminate(false);
@@ -149,7 +147,7 @@ public class ArticlesFragment extends Fragment {
                 // Create a progressdialog
                 mProgressDialog = new ProgressDialog(getActivity());
                 // Set progressdialog title
-                mProgressDialog.setTitle("vitly");
+                mProgressDialog.setTitle("USYDWall");
                 // Set progressdialog message
                 mProgressDialog.setMessage("Loading more...");
                 mProgressDialog.setIndeterminate(false);

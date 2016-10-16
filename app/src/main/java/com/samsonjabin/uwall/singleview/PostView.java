@@ -9,9 +9,6 @@ import android.widget.TextView;
 
 import com.samsonjabin.uwall.R;
 
-/**
- * Created by AravindRaj on 31-03-2015.
- */
 public class PostView extends ActionBarActivity {
     TextView content_tv;
     TextView username_tv;

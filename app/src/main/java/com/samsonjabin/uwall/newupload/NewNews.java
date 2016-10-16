@@ -36,9 +36,6 @@ import java.io.FileInputStream;
 import java.io.IOException;
 import java.io.InputStream;
 
-/**
- * Created by AravindRaj on 19-03-2015.
- */
 public class NewNews extends Activity {
     private static final int RESULT_LOAD_IMAGE = 1;
     private Button upload,pick;
@@ -98,7 +95,7 @@ public class NewNews extends Activity {
                 public void onClick(View arg0) {
                     final ProgressDialog dlg = new ProgressDialog(NewNews.this);
                     dlg.setTitle("Please wait.");
-                    dlg.setMessage("vitly");
+                    dlg.setMessage("USYDWall");
                     dlg.show();
                     // Locate the image
                     Bitmap bitmap = BitmapFactory.decodeFile(picturePath);

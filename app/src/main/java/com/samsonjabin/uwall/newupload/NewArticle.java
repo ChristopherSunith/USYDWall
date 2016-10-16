@@ -22,9 +22,7 @@ import com.parse.ParseObject;
 import com.parse.ParseUser;
 import com.parse.SaveCallback;
 
-/**
- * Created by AravindRaj on 15-04-2015.
- */
+
 public class NewArticle extends ActionBarActivity {
     EditText title, content;
     Button post;
@@ -44,7 +42,7 @@ public class NewArticle extends ActionBarActivity {
             public void onClick(View v) {
                 final ProgressDialog dlg = new ProgressDialog(NewArticle.this);
                 dlg.setTitle("Please wait.");
-                dlg.setMessage("Posting, vitly");
+                dlg.setMessage("Posting, USYDWall");
                 dlg.show();
                 ParseUser pcu = ParseUser.getCurrentUser();
                 ParseFile dp= pcu.getParseFile("profilePic");

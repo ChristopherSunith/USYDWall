@@ -8,9 +8,6 @@ import android.widget.TextView;
 
 import com.samsonjabin.uwall.R;
 
-/**
- * Created by AravindRaj on 17-04-2015.
- */
 public class ArticlesView extends ActionBarActivity {
     TextView title,author,article,timestamp;
     String content,title_st,time,author_st;

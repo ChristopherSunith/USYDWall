@@ -28,9 +28,7 @@ import java.util.List;
 
 import de.hdodenhof.circleimageview.CircleImageView;
 
-/**
- * Created by AravindRaj on 05-04-2015.
- */
+
 public class EventsListAdapter extends BaseAdapter {
 
     // Declare Variables

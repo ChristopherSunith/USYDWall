@@ -2,9 +2,6 @@ package com.samsonjabin.uwall.get;
 
 import com.parse.ParseFile;
 
-/**
- * Created by AravindRaj on 18-03-2015.
- */
 
 public class News {
     private String content;

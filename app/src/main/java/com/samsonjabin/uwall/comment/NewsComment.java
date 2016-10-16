@@ -26,9 +26,6 @@ import java.util.List;
 
 
 
-/**
- * Created by AravindRaj on 05-04-2015.
- */
 public class NewsComment extends ActionBarActivity {
 
 
@@ -76,7 +73,7 @@ public class NewsComment extends ActionBarActivity {
             // Create a progressdialog
             mProgressDialog = new ProgressDialog(NewsComment.this);
             // Set progressdialog title
-            mProgressDialog.setTitle("vitly");
+            mProgressDialog.setTitle("USYDWall");
             // Set progressdialog message
             mProgressDialog.setMessage("Loading comment...");
             mProgressDialog.setIndeterminate(false);
@@ -159,7 +156,7 @@ public class NewsComment extends ActionBarActivity {
                 // Create a progressdialog
                 mProgressDialog = new ProgressDialog(NewsComment.this);
                 // Set progressdialog title
-                mProgressDialog.setTitle("vitly");
+                mProgressDialog.setTitle("USYDWall");
                 // Set progressdialog message
                 mProgressDialog.setMessage("Loading more...");
                 mProgressDialog.setIndeterminate(false);

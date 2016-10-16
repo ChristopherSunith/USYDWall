@@ -1,8 +1,5 @@
 package com.samsonjabin.uwall.adapters;
 
-/**
- * Created by AravindRaj on 18-03-2015.
- */
 
 import android.content.Context;
 import android.content.Intent;

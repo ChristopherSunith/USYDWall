@@ -18,9 +18,7 @@ import com.parse.ParseObject;
 import com.parse.ParseUser;
 import com.parse.SaveCallback;
 
-/**
- * Created by AravindRaj on 04-05-2015.
- */
+
 public class NewPost extends ActionBarActivity {
 
     EditText con;
@@ -37,7 +35,7 @@ public class NewPost extends ActionBarActivity {
             public void onClick(View v) {
                 final ProgressDialog dlg = new ProgressDialog(NewPost.this);
                 dlg.setTitle("Please wait.");
-                dlg.setMessage("Posting, vitly");
+                dlg.setMessage("Posting, USYDWall");
                 dlg.show();
                 ParseObject postObject = new ParseObject("Post");
                 String username = ParseUser.getCurrentUser().get("name").toString();

@@ -1,8 +1,6 @@
 package com.samsonjabin.uwall.singleview;
 
-/**
- * Created by AravindRaj on 18-03-2015.
- */
+
 
 import com.samsonjabin.uwall.MainActivity;
 import com.samsonjabin.uwall.comment.NewsComment;

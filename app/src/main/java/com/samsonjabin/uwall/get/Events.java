@@ -3,9 +3,7 @@ package com.samsonjabin.uwall.get;
 
 import com.parse.ParseFile;
 
-/**
- * Created by AravindRaj on 05-04-2015.
- */
+
 public class Events {
 
     private String eventname,obj,format,date,venue,desc,time;

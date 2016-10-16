@@ -93,7 +93,7 @@ public class Dp extends Activity {
                     upload.setBackgroundColor(getResources().getColor(R.color.button_material_dark));
                     final ProgressDialog dlg = new ProgressDialog(Dp.this);
                     dlg.setTitle("Please wait.");
-                    dlg.setMessage("vitly");
+                    dlg.setMessage("USYDWall");
                     dlg.show();
                     // Locate the image in res >
                     Bitmap bitmap = BitmapFactory.decodeFile(picturePath);

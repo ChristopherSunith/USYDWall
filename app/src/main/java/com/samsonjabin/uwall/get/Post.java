@@ -2,9 +2,7 @@ package com.samsonjabin.uwall.get;
 
 import android.support.v4.app.Fragment;
 
-/**
- * Created by AravindRaj on 31-03-2015.
- */
+
 public class Post extends Fragment {
 
     private String content;

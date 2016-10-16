@@ -91,7 +91,7 @@ public class NewEvents extends ActionBarActivity {
             public void onClick(View v) {
                 final ProgressDialog dlg = new ProgressDialog(NewEvents.this);
                 dlg.setTitle("Please wait.");
-                dlg.setMessage("Posting, vitly");
+                dlg.setMessage("Posting, USYDWall");
                 dlg.show();
                 Bitmap bitmap = BitmapFactory.decodeResource(getResources(),
                         R.drawable.codeplay);

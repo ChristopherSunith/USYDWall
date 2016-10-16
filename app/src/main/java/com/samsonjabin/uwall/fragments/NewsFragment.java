@@ -29,9 +29,7 @@ import com.samsonjabin.uwall.R;
 import com.parse.ParseQuery;
 import com.parse.ParseUser;
 
-/**
- * Created by AravindRaj on 26-03-2015.
- */
+
 public class NewsFragment extends Fragment implements SwipeRefreshLayout.OnRefreshListener {
 
     ListView listview;
@@ -75,7 +73,7 @@ public class NewsFragment extends Fragment implements SwipeRefreshLayout.OnRefre
             // Create a progressdialog
             //mProgressDialog = new ProgressDialog(getActivity());
             // Set progressdialog title
-            //mProgressDialog.setTitle("vitly");
+            //mProgressDialog.setTitle("USYDWall");
             // Set progressdialog message
             //mProgressDialog.setMessage("Loading...");
             //mProgressDialog.setIndeterminate(false);
@@ -162,7 +160,7 @@ public class NewsFragment extends Fragment implements SwipeRefreshLayout.OnRefre
                 // Create a progressdialog
                 //mProgressDialog = new ProgressDialog(getActivity());
                 // Set progressdialog title
-                //mProgressDialog.setTitle("vitly");
+                //mProgressDialog.setTitle("USYDWall");
                 // Set progressdialog message
                 //mProgressDialog.setMessage("Loading more...");
                 //mProgressDialog.setIndeterminate(false);
